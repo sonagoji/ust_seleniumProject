@@ -1,0 +1,17 @@
+C:\Selenium demo\capstone_project\src\test\java\stepdefinition\tc1_validLogin.java
+C:\Selenium demo\capstone_project\src\test\java\stepdefinition\tc2_invalidLogin.java
+C:\Selenium demo\capstone_project\src\test\java\testrunner.java
+C:\Selenium demo\capstone_project\src\test\java\pageObjects\cartPage.java
+C:\Selenium demo\capstone_project\src\test\java\stepdefinition\Hooks.java
+C:\Selenium demo\capstone_project\src\test\java\stepdefinition\tc5_removeFromCart.java
+C:\Selenium demo\capstone_project\src\test\java\stepdefinition\tc7_checkout.java
+C:\Selenium demo\capstone_project\src\test\java\stepdefinition\tc8_InvalidCheckout.java
+C:\Selenium demo\capstone_project\src\test\java\pageObjects\loginPage.java
+C:\Selenium demo\capstone_project\src\test\java\stepdefinition\tc4_AddToCart.java
+C:\Selenium demo\capstone_project\src\test\java\utilities\reportGenerator.java
+C:\Selenium demo\capstone_project\src\test\java\utilities\screenshots.java
+C:\Selenium demo\capstone_project\src\test\java\pageObjects\checkoutPage.java
+C:\Selenium demo\capstone_project\src\test\java\pageObjects\productsPage.java
+C:\Selenium demo\capstone_project\src\test\java\stepdefinition\tc6_filter.java
+C:\Selenium demo\capstone_project\src\test\java\stepdefinition\tc9_logout.java
+C:\Selenium demo\capstone_project\src\test\java\stepdefinition\tc3_products.java

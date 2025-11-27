@@ -1,0 +1,2258 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4005200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user in the login window",
+            "match": {
+              "location": "stepdefinition.tc1_validLogin.the_user_in_the_login_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 376002200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters valid \"standard_user\" and valid \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepdefinition.tc1_validLogin.user_enters_valid_and_valid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-11-26T11:27:15.880Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2159184000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Add a product to cart",
+        "description": "",
+        "id": "shopping-cart-functionality;add-a-product-to-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 177004900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 197996400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user adds \"Sauce Labs Backpack\" to the cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sauce Labs Backpack\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinition.tc4_AddToCart.user_adds_to_the_cart(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 78997400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "\"Sauce Labs Backpack\" should be added to cart and the cart icon should show \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sauce Labs Backpack\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 76
+                }
+              ],
+              "location": "stepdefinition.tc4_AddToCart.should_be_added_to_cart(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cart"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user in the login window",
+            "match": {
+              "location": "stepdefinition.tc1_validLogin.the_user_in_the_login_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 314997700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters valid \"standard_user\" and valid \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepdefinition.tc1_validLogin.user_enters_valid_and_valid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-11-26T11:27:19.067Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1330002100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Remove a product from cart",
+        "description": "",
+        "id": "shopping-cart-functionality;remove-a-product-from-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 194996400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 327999900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user removes \"Sauce Labs Backpack\" from cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sauce Labs Backpack\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinition.tc5_removeFromCart.user_removes_from_cart(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40998700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "\"Sauce Labs BackPack\" is removed and cart icon becomes \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sauce Labs BackPack\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 55
+                }
+              ],
+              "location": "stepdefinition.tc5_removeFromCart.is_removed_and_cart_icon_becomes(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cart"
+          }
+        ]
+      }
+    ],
+    "name": "Shopping cart functionality",
+    "description": "",
+    "id": "shopping-cart-functionality",
+    "keyword": "Feature",
+    "uri": "file:features/cart.feature",
+    "tags": [
+      {
+        "name": "@cart",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user in the login window",
+            "match": {
+              "location": "stepdefinition.tc1_validLogin.the_user_in_the_login_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 324999200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters valid \"standard_user\" and valid \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepdefinition.tc1_validLogin.user_enters_valid_and_valid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-11-26T11:27:21.300Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1331998200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Successfull checkout",
+        "description": "",
+        "id": "checkout-functionality;successfull-checkout",
+        "after": [
+          {
+            "result": {
+              "duration": 229550700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2337734700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user adds \"Sauce Labs Backpack\" to cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sauce Labs Backpack\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinition.tc7_checkout.the_user_adds_to_cart(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 383988900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "he proceeds to checkout with firstname \"abc\" lastname as \"gvc\" and postal code as \"453678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"gvc\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"453678\"",
+                  "offset": 82
+                }
+              ],
+              "location": "stepdefinition.tc7_checkout.he_proceeds_to_checkout_with_firstname_lastname_as_and_postal_code_as(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 128001200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "order confirmation is displayed",
+            "match": {
+              "location": "stepdefinition.tc7_checkout.order_confirmation_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@checkout"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 997500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user in the login window",
+            "match": {
+              "location": "stepdefinition.tc1_validLogin.the_user_in_the_login_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 339004700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters valid \"standard_user\" and valid \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepdefinition.tc1_validLogin.user_enters_valid_and_valid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-11-26T11:27:26.066Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1767284100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Unsuccessfull checkout",
+        "description": "",
+        "id": "checkout-functionality;unsuccessfull-checkout",
+        "after": [
+          {
+            "result": {
+              "duration": 191004000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2343236200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user adds \"Sauce Labs Backpack\" to cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sauce Labs Backpack\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinition.tc7_checkout.the_user_adds_to_cart(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 291971800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "he proceeds to checkout with firstname \"abc\" lastname as \"gvc\" and postal code as \"w\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"gvc\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"w\"",
+                  "offset": 82
+                }
+              ],
+              "location": "stepdefinition.tc7_checkout.he_proceeds_to_checkout_with_firstname_lastname_as_and_postal_code_as(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 169999000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "error message is displayed",
+            "match": {
+              "location": "stepdefinition.tc8_InvalidCheckout.error_message_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@checkout"
+          }
+        ]
+      }
+    ],
+    "name": "Checkout functionality",
+    "description": "",
+    "id": "checkout-functionality",
+    "keyword": "Feature",
+    "uri": "file:features/checkout.feature",
+    "tags": [
+      {
+        "name": "@checkout",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 995800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user in the login window",
+            "match": {
+              "location": "stepdefinition.tc1_validLogin.the_user_in_the_login_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 331000500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters valid \"standard_user\" and valid \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepdefinition.tc1_validLogin.user_enters_valid_and_valid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-11-26T11:27:31.188Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1352000600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Filter products by a to z",
+        "description": "",
+        "id": "filtering-products;filter-products-by-a-to-z",
+        "after": [
+          {
+            "result": {
+              "duration": 192013300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 137999700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user selects filter \"Name (A to Z)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Name (A to Z)\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinition.tc6_filter.user_selects_filter(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 75000100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "products displayed in alphabetical order",
+            "match": {
+              "location": "stepdefinition.tc6_filter.products_displayed_in_alphabetical_order()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@filter"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user in the login window",
+            "match": {
+              "location": "stepdefinition.tc1_validLogin.the_user_in_the_login_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 318001300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters valid \"standard_user\" and valid \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepdefinition.tc1_validLogin.user_enters_valid_and_valid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-11-26T11:27:33.306Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1174996000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Filter products by a to z",
+        "description": "",
+        "id": "filtering-products;filter-products-by-a-to-z",
+        "after": [
+          {
+            "result": {
+              "duration": 165024000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 157000600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user selects filter \"Name (Z to A)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Name (Z to A)\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinition.tc6_filter.user_selects_filter(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72001400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "products displayed in reverse alphabetical order",
+            "match": {
+              "location": "stepdefinition.tc6_filter.products_displayed_in_reverse_alphabetical_order()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@filter"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user in the login window",
+            "match": {
+              "location": "stepdefinition.tc1_validLogin.the_user_in_the_login_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 311999300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters valid \"standard_user\" and valid \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepdefinition.tc1_validLogin.user_enters_valid_and_valid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-11-26T11:27:35.215Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1412905300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Filter products by a to z",
+        "description": "",
+        "id": "filtering-products;filter-products-by-a-to-z",
+        "after": [
+          {
+            "result": {
+              "duration": 161021500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 162000300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user selects filter \"Price (low to high)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Price (low to high)\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinition.tc6_filter.user_selects_filter(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 71999700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "products displayed in ascending price order",
+            "match": {
+              "location": "stepdefinition.tc6_filter.products_displayed_in_ascending_price_order()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@filter"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user in the login window",
+            "match": {
+              "location": "stepdefinition.tc1_validLogin.the_user_in_the_login_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 314002400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters valid \"standard_user\" and valid \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepdefinition.tc1_validLogin.user_enters_valid_and_valid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-11-26T11:27:37.352Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1284001900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Filter products by a to z",
+        "description": "",
+        "id": "filtering-products;filter-products-by-a-to-z",
+        "after": [
+          {
+            "result": {
+              "duration": 203996100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 151997200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user selects filter \"Price (high to low)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Price (high to low)\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinition.tc6_filter.user_selects_filter(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 80001600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "products displayed in descending price order",
+            "match": {
+              "location": "stepdefinition.tc6_filter.products_displayed_in_descending_price_order()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@filter"
+          }
+        ]
+      }
+    ],
+    "name": "Filtering products",
+    "description": "",
+    "id": "filtering-products",
+    "keyword": "Feature",
+    "uri": "file:features/filter.feature",
+    "tags": [
+      {
+        "name": "@filter",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-11-26T11:27:39.398Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1388986200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Login with different valid credentials",
+        "description": "",
+        "id": "login-functionality;login-with-different-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 167021600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 999800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user in the login window",
+            "match": {
+              "location": "stepdefinition.tc1_validLogin.the_user_in_the_login_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 309998500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters valid \"standard_user\" and valid \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepdefinition.tc1_validLogin.user_enters_valid_and_valid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16000200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is navigated to products page",
+            "match": {
+              "location": "stepdefinition.tc1_validLogin.user_is_navigated_to_products_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-11-26T11:27:41.298Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1337532200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Login with different valid credentials",
+        "description": "",
+        "id": "login-functionality;login-with-different-valid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 161000300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user in the login window",
+            "match": {
+              "location": "stepdefinition.tc1_validLogin.the_user_in_the_login_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 334999900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters valid \"problem_user\" and valid \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"problem_user\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 43
+                }
+              ],
+              "location": "stepdefinition.tc1_validLogin.user_enters_valid_and_valid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6000600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is navigated to products page",
+            "match": {
+              "location": "stepdefinition.tc1_validLogin.user_is_navigated_to_products_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-11-26T11:27:43.152Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1488014300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Login with different valid credentials",
+        "description": "",
+        "id": "login-functionality;login-with-different-valid-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 163995200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1001300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user in the login window",
+            "match": {
+              "location": "stepdefinition.tc1_validLogin.the_user_in_the_login_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5330706300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters valid \"performance_glitch_user\" and valid \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"performance_glitch_user\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 54
+                }
+              ],
+              "location": "stepdefinition.tc1_validLogin.user_enters_valid_and_valid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7999600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is navigated to products page",
+            "match": {
+              "location": "stepdefinition.tc1_validLogin.user_is_navigated_to_products_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-11-26T11:27:50.154Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1704886700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Login with different valid credentials",
+        "description": "",
+        "id": "login-functionality;login-with-different-valid-credentials;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 182001200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user in the login window",
+            "match": {
+              "location": "stepdefinition.tc1_validLogin.the_user_in_the_login_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 335996900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters valid \"error_user\" and valid \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error_user\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 41
+                }
+              ],
+              "location": "stepdefinition.tc1_validLogin.user_enters_valid_and_valid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6997800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is navigated to products page",
+            "match": {
+              "location": "stepdefinition.tc1_validLogin.user_is_navigated_to_products_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-11-26T11:27:52.397Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1243004200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Login with different valid credentials",
+        "description": "",
+        "id": "login-functionality;login-with-different-valid-credentials;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 175001400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user in the login window",
+            "match": {
+              "location": "stepdefinition.tc1_validLogin.the_user_in_the_login_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 326001000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters valid \"visual_user\" and valid \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"visual_user\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 42
+                }
+              ],
+              "location": "stepdefinition.tc1_validLogin.user_enters_valid_and_valid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8997900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is navigated to products page",
+            "match": {
+              "location": "stepdefinition.tc1_validLogin.user_is_navigated_to_products_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-11-26T11:27:54.159Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1415254600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Login with different invalid credentials",
+        "description": "",
+        "id": "login-functionality;login-with-different-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 176013600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1001100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user in the login page",
+            "match": {
+              "location": "stepdefinition.tc2_invalidLogin.the_user_in_the_login_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 262996100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user enters invalid \"locked_out_user\" and invalid \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"locked_out_user\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 54
+                }
+              ],
+              "location": "stepdefinition.tc2_invalidLogin.the_user_enters_invalid_and_invalid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27001400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user gets error message \"Epic sadface: Sorry, this user has been locked out.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Sorry, this user has been locked out.\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepdefinition.tc2_invalidLogin.the_user_gets_error_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-11-26T11:27:56.060Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1356595100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Login with different invalid credentials",
+        "description": "",
+        "id": "login-functionality;login-with-different-invalid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 164996700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user in the login page",
+            "match": {
+              "location": "stepdefinition.tc2_invalidLogin.the_user_in_the_login_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 219001500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user enters invalid \"\" and invalid \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 39
+                }
+              ],
+              "location": "stepdefinition.tc2_invalidLogin.the_user_enters_invalid_and_invalid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28998400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user gets error message \"Epic sadface: Username is required\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Username is required\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepdefinition.tc2_invalidLogin.the_user_gets_error_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-11-26T11:27:57.842Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1320524300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Login with different invalid credentials",
+        "description": "",
+        "id": "login-functionality;login-with-different-invalid-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 163029600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user in the login page",
+            "match": {
+              "location": "stepdefinition.tc2_invalidLogin.the_user_in_the_login_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 237999800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user enters invalid \"standard_user\" and invalid \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 52
+                }
+              ],
+              "location": "stepdefinition.tc2_invalidLogin.the_user_enters_invalid_and_invalid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31998900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user gets error message \"Epic sadface: Password is required\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Password is required\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepdefinition.tc2_invalidLogin.the_user_gets_error_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-11-26T11:27:59.612Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1324589400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Login with different invalid credentials",
+        "description": "",
+        "id": "login-functionality;login-with-different-invalid-credentials;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 164019900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user in the login page",
+            "match": {
+              "location": "stepdefinition.tc2_invalidLogin.the_user_in_the_login_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 249998800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user enters invalid \"\" and invalid \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 39
+                }
+              ],
+              "location": "stepdefinition.tc2_invalidLogin.the_user_enters_invalid_and_invalid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27000800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user gets error message \"Epic sadface: Username is required\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Username is required\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepdefinition.tc2_invalidLogin.the_user_gets_error_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-11-26T11:28:01.389Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2934837200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Login with different invalid credentials",
+        "description": "",
+        "id": "login-functionality;login-with-different-invalid-credentials;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 167000300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1001900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user in the login page",
+            "match": {
+              "location": "stepdefinition.tc2_invalidLogin.the_user_in_the_login_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 249998200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user enters invalid \"abc\" and invalid \"gshs\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"gshs\"",
+                  "offset": 42
+                }
+              ],
+              "location": "stepdefinition.tc2_invalidLogin.the_user_enters_invalid_and_invalid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29999900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user gets error message \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Username and password do not match any user in this service\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepdefinition.tc2_invalidLogin.the_user_gets_error_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "file:features/login.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2025-11-26T11:28:04.781Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1667704800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify logout",
+        "description": "",
+        "id": "logout-functionality;verify-logout",
+        "after": [
+          {
+            "result": {
+              "duration": 188043200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1005200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user in the login window",
+            "match": {
+              "location": "stepdefinition.tc1_validLogin.the_user_in_the_login_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 318996600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters valid \"standard_user\" and valid \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepdefinition.tc1_validLogin.user_enters_valid_and_valid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2185062800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks logout",
+            "match": {
+              "location": "stepdefinition.tc9_logout.user_clicks_logout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10002600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user navigated to login page",
+            "match": {
+              "location": "stepdefinition.tc9_logout.user_navigated_to_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@logout"
+          }
+        ]
+      }
+    ],
+    "name": "Logout functionality",
+    "description": "",
+    "id": "logout-functionality",
+    "keyword": "Feature",
+    "uri": "file:features/logout.feature",
+    "tags": [
+      {
+        "name": "@logout",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user in the login window",
+            "match": {
+              "location": "stepdefinition.tc1_validLogin.the_user_in_the_login_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 340999800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters valid \"standard_user\" and valid \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepdefinition.tc1_validLogin.user_enters_valid_and_valid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-11-26T11:28:09.166Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1365873800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Verify product page title",
+        "description": "",
+        "id": "product-page;verify-product-page-title",
+        "after": [
+          {
+            "result": {
+              "duration": 160017000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31998500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the product page title is verified",
+            "match": {
+              "location": "stepdefinition.tc3_products.the_product_page_title_is_verified()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@product"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user in the login window",
+            "match": {
+              "location": "stepdefinition.tc1_validLogin.the_user_in_the_login_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 306998700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters valid \"standard_user\" and valid \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepdefinition.tc1_validLogin.user_enters_valid_and_valid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-11-26T11:28:11.080Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1389255200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Verify product list is displayed",
+        "description": "",
+        "id": "product-page;verify-product-list-is-displayed",
+        "after": [
+          {
+            "result": {
+              "duration": 164997700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 42008200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the product list is verified",
+            "match": {
+              "location": "stepdefinition.tc3_products.the_product_list_is_verified()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@product"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user in the login window",
+            "match": {
+              "location": "stepdefinition.tc1_validLogin.the_user_in_the_login_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 315998900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters valid \"standard_user\" and valid \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepdefinition.tc1_validLogin.user_enters_valid_and_valid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-11-26T11:28:12.993Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1752390300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Verify product details",
+        "description": "",
+        "id": "product-page;verify-product-details",
+        "after": [
+          {
+            "result": {
+              "duration": 186995100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 144004300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the product details is verified",
+            "match": {
+              "location": "stepdefinition.tc3_products.the_product_details_is_verified()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@product"
+          }
+        ]
+      }
+    ],
+    "name": "product page",
+    "description": "",
+    "id": "product-page",
+    "keyword": "Feature",
+    "uri": "file:features/product.feature",
+    "tags": [
+      {
+        "name": "@product",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
