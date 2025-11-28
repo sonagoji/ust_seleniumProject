@@ -42,6 +42,7 @@ public class tc6_filter extends reportGenerator {
 			logger.log(LogStatus.FAIL, "Filter test A to Z is failed");
 			ss.takeScreenshot("Filter_AtoZ");
 			Allure.addAttachment("screenshot taken successfully", e.getMessage());
+			throw e;
 		}
 		extent.endTest(logger);
 		
@@ -65,6 +66,7 @@ public class tc6_filter extends reportGenerator {
 			ss.takeScreenshot("Filter_ZtoA");
 			logger.log(LogStatus.FAIL, "Filter test Z to A is failed");
 			Allure.addAttachment("screenshot taken successfully", e.getMessage());
+			throw e;
 		}
 		extent.endTest(logger);
 	}
@@ -87,6 +89,7 @@ public class tc6_filter extends reportGenerator {
 			ss.takeScreenshot("Filter_price_lowToHigh");
 			logger.log(LogStatus.FAIL, "Filter test price low to high is failed");
 			Allure.addAttachment("screenshot taken successfully", e.getMessage());
+			throw e;
 		}
 		extent.endTest(logger);
 	    
@@ -110,6 +113,7 @@ public class tc6_filter extends reportGenerator {
 			ss.takeScreenshot("Filter_price_highToLow");
 			logger.log(LogStatus.FAIL, "Filter test price high to low is failed");
 			Allure.addAttachment("screenshot taken successfully", e.getMessage());
+			throw e;
 		}
 		extent.endTest(logger);
 	    

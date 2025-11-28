@@ -35,6 +35,7 @@ public class tc3_products extends reportGenerator{
 			ss.takeScreenshot("title");
 			logger.log(LogStatus.FAIL, "Product page title test is failed");
 			Allure.addAttachment("screenshot taken successfully", e.getMessage());
+			throw e;
 		}
 		extent.endTest(logger);
 	    
@@ -58,6 +59,7 @@ public class tc3_products extends reportGenerator{
 	    	ss.takeScreenshot("product_list");
 	    	logger.log(LogStatus.FAIL,"Products listing test is failed" );
 	    	Allure.addAttachment("screenshot taken successfully", e.getMessage());
+	    	throw e;
 	    }
 	    extent.endTest(logger);
 	}
@@ -81,6 +83,7 @@ public class tc3_products extends reportGenerator{
 	    	ss.takeScreenshot("product_details");
 	    	logger.log(LogStatus.FAIL,"Product details test is failed" );
 	    	Allure.addAttachment("screenshot taken successfully", e.getMessage());
+	    	throw e;
 	    }
 		extent.endTest(logger);
 	}

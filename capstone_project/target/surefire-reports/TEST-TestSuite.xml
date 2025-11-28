@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="61.275" tests="22" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="63.723" tests="22" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
-    <property name="sun.java.command" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire9552232288759664586\surefirebooter7860257819772427450.jar C:\Users\Administrator\AppData\Local\Temp\surefire9552232288759664586 2025-11-26T16-57-13_903-jvmRun1 surefire11524982074082597805tmp surefire_08093786394235988870tmp"/>
+    <property name="sun.java.command" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire13344849502423402520\surefirebooter14223074625080163549.jar C:\Users\Administrator\AppData\Local\Temp\surefire13344849502423402520 2025-11-28T11-30-47_698-jvmRun1 surefire5267597752994013032tmp surefire_015611104938370197308tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Selenium demo\capstone_project\target\test-classes;C:\Selenium demo\capstone_project\target\classes;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-java\6.1.1\cucumber-java-6.1.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-core\6.1.1\cucumber-core-6.1.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-gherkin\6.1.1\cucumber-gherkin-6.1.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.1.1\cucumber-gherkin-messages-6.1.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-expressions\10.2.0\cucumber-expressions-10.2.0.jar;C:\Users\Administrator\.m2\repository\io\cucumber\datatable\3.3.1\datatable-3.3.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-plugin\6.1.1\cucumber-plugin-6.1.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\docstring\6.1.1\docstring-6.1.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\html-formatter\6.0.3\html-formatter-6.0.3.jar;C:\Users\Administrator\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-testng\6.1.1\cucumber-testng-6.1.1.jar;C:\Users\Administrator\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\Administrator\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Administrator\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\Administrator\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Administrator\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Administrator\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-java\4.38.0\selenium-java-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-api\4.38.0\selenium-api-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.38.0\selenium-chrome-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.38.0\selenium-chromium-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-json\4.38.0\selenium-json-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.38.0\selenium-manager-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v140\4.38.0\selenium-devtools-v140-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v141\4.38.0\selenium-devtools-v141-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v142\4.38.0\selenium-devtools-v142-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.38.0\selenium-edge-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.38.0\selenium-firefox-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-http\4.38.0\selenium-http-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.38.0\selenium-ie-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.38.0\selenium-remote-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\Administrator\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Administrator\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Administrator\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\Administrator\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-api\1.55.0\opentelemetry-api-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-context\1.55.0\opentelemetry-context-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-common\1.55.0\opentelemetry-common-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.55.0\opentelemetry-exporter-logging-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.55.0\opentelemetry-sdk-common-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.55.0\opentelemetry-sdk-extension-autoconfigure-spi-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.55.0\opentelemetry-sdk-extension-autoconfigure-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.55.0\opentelemetry-sdk-trace-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.55.0\opentelemetry-sdk-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.55.0\opentelemetry-sdk-metrics-1.55.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.55.0\opentelemetry-sdk-logs-1.55.0.jar;C:\Users\Administrator\.m2\repository\net\bytebuddy\byte-buddy\1.17.8\byte-buddy-1.17.8.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-os\4.38.0\selenium-os-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.38.0\selenium-safari-driver-4.38.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-support\4.38.0\selenium-support-4.38.0.jar;C:\Users\Administrator\.m2\repository\io\github\bonigarcia\webdrivermanager\4.0.0\webdrivermanager-4.0.0.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Administrator\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Administrator\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0\httpclient5-5.0.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0\httpcore5-5.0.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0\httpcore5-h2-5.0.jar;C:\Users\Administrator\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Administrator\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Administrator\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\Administrator\.m2\repository\com\relevantcodes\extentreports\2.40.2\extentreports-2.40.2.jar;C:\Users\Administrator\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Administrator\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Administrator\.m2\repository\io\qameta\allure\allure-testng\2.13.9\allure-testng-2.13.9.jar;C:\Users\Administrator\.m2\repository\io\qameta\allure\allure-java-commons\2.13.9\allure-java-commons-2.13.9.jar;C:\Users\Administrator\.m2\repository\io\qameta\allure\allure-model\2.13.9\allure-model-2.13.9.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.2\jackson-databind-2.12.2.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.2\jackson-annotations-2.12.2.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.2\jackson-core-2.12.2.jar;C:\Users\Administrator\.m2\repository\org\apache\tika\tika-core\1.25\tika-core-1.25.jar;C:\Users\Administrator\.m2\repository\org\jooq\joor-java-8\0.9.13\joor-java-8-0.9.13.jar;C:\Users\Administrator\.m2\repository\io\qameta\allure\allure-test-filter\2.13.9\allure-test-filter-2.13.9.jar;C:\Users\Administrator\.m2\repository\io\qameta\allure\allure-cucumber6-jvm\2.13.9\allure-cucumber6-jvm-2.13.9.jar;C:\Users\Administrator\.m2\repository\io\cucumber\gherkin\18.0.0\gherkin-18.0.0.jar;C:\Users\Administrator\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;"/>
     <property name="allure.results.directory" value="target/allure-results"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire9552232288759664586\surefirebooter7860257819772427450.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire13344849502423402520\surefirebooter14223074625080163549.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25+37-LTS-3491"/>
@@ -51,7 +51,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\apache-jmeter-5.6.3\bin;C:\Program Files (x86)\Micro Focus\LoadRunner\bin\Silk\Silk Performer 21.0;C:\Program Files\Java\jdk-25\bin;C:\Program Files\Git\cmd;C:\Selenium downloads\apache-maven-3.9.11-bin\apache-maven-3.9.11\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\apache-jmeter-5.6.3\bin;C:\Program Files (x86)\Micro Focus\LoadRunner\bin\Silk\Silk Performer 21.0;C:\Program Files\Java\jdk-25\bin;C:\Program Files\Git\cmd;C:\Selenium downloads\apache-maven-3.9.11-bin\apache-maven-3.9.11\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
@@ -60,26 +60,45 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="runScenario" classname="testrunner" time="3.312"/>
-  <testcase name="runScenario" classname="testrunner" time="2.262"/>
-  <testcase name="runScenario" classname="testrunner" time="4.761"/>
-  <testcase name="runScenario" classname="testrunner" time="5.126"/>
-  <testcase name="runScenario" classname="testrunner" time="2.112"/>
-  <testcase name="runScenario" classname="testrunner" time="1.911"/>
-  <testcase name="runScenario" classname="testrunner" time="2.139"/>
-  <testcase name="runScenario" classname="testrunner" time="2.045"/>
-  <testcase name="runScenario" classname="testrunner" time="1.898"/>
-  <testcase name="runScenario" classname="testrunner" time="1.851"/>
-  <testcase name="runScenario" classname="testrunner" time="7.003"/>
-  <testcase name="runScenario" classname="testrunner" time="2.241"/>
-  <testcase name="runScenario" classname="testrunner" time="1.762"/>
-  <testcase name="runScenario" classname="testrunner" time="1.894"/>
-  <testcase name="runScenario" classname="testrunner" time="1.788"/>
-  <testcase name="runScenario" classname="testrunner" time="1.767"/>
-  <testcase name="runScenario" classname="testrunner" time="1.777"/>
-  <testcase name="runScenario" classname="testrunner" time="3.392"/>
-  <testcase name="runScenario" classname="testrunner" time="4.383"/>
-  <testcase name="runScenario" classname="testrunner" time="1.911"/>
-  <testcase name="runScenario" classname="testrunner" time="1.913"/>
-  <testcase name="runScenario" classname="testrunner" time="2.407"/>
+  <testcase name="runScenario" classname="testrunner" time="3.563"/>
+  <testcase name="runScenario" classname="testrunner" time="2.4"/>
+  <testcase name="runScenario" classname="testrunner" time="5.021"/>
+  <testcase name="runScenario" classname="testrunner" time="5.081">
+    <failure message="Invalid checkout fails expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Invalid checkout fails expected [true] but found [false]
+</failure>
+    <system-out><![CDATA[
+@checkout
+Scenario: Unsuccessfull checkout                                                             # features/checkout.feature:14
+  Given the user in the login window                                                         # stepdefinition.tc1_validLogin.the_user_in_the_login_window()
+  When user enters valid "standard_user" and valid "secret_sauce"                            # stepdefinition.tc1_validLogin.user_enters_valid_and_valid(java.lang.String,java.lang.String)
+  Given the user adds "Sauce Labs Backpack" to cart                                          # stepdefinition.tc7_checkout.the_user_adds_to_cart(java.lang.String)
+  When he proceeds to checkout with firstname "abc" lastname as "gvc" and postal code as "w" # stepdefinition.tc7_checkout.he_proceeds_to_checkout_with_firstname_lastname_as_and_postal_code_as(java.lang.String,java.lang.String,java.lang.String)
+  Then error message is displayed                                                            # stepdefinition.tc8_InvalidCheckout.error_message_is_displayed()
+      java.lang.AssertionError: Invalid checkout fails expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at stepdefinition.tc8_InvalidCheckout.error_message_is_displayed(tc8_InvalidCheckout.java:30)
+	at ✽.error message is displayed(file:///C:/Selenium%20demo/capstone_project/features/checkout.feature:17)
+
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario" classname="testrunner" time="2.283"/>
+  <testcase name="runScenario" classname="testrunner" time="2.333"/>
+  <testcase name="runScenario" classname="testrunner" time="2.237"/>
+  <testcase name="runScenario" classname="testrunner" time="2.159"/>
+  <testcase name="runScenario" classname="testrunner" time="2.228"/>
+  <testcase name="runScenario" classname="testrunner" time="2.004"/>
+  <testcase name="runScenario" classname="testrunner" time="7.099"/>
+  <testcase name="runScenario" classname="testrunner" time="2.394"/>
+  <testcase name="runScenario" classname="testrunner" time="2.455"/>
+  <testcase name="runScenario" classname="testrunner" time="1.937"/>
+  <testcase name="runScenario" classname="testrunner" time="1.862"/>
+  <testcase name="runScenario" classname="testrunner" time="1.904"/>
+  <testcase name="runScenario" classname="testrunner" time="1.983"/>
+  <testcase name="runScenario" classname="testrunner" time="1.99"/>
+  <testcase name="runScenario" classname="testrunner" time="4.169"/>
+  <testcase name="runScenario" classname="testrunner" time="2.295"/>
+  <testcase name="runScenario" classname="testrunner" time="2.103"/>
+  <testcase name="runScenario" classname="testrunner" time="2.149"/>
 </testsuite>

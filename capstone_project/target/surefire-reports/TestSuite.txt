@@ -1,4 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 61.275 s - in TestSuite
+Tests run: 22, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 63.723 s <<< FAILURE! - in TestSuite
+runScenario(testrunner)  Time elapsed: 5.081 s  <<< FAILURE!
+java.lang.AssertionError: Invalid checkout fails expected [true] but found [false]
+

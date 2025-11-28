@@ -40,6 +40,7 @@ public class tc4_AddToCart extends reportGenerator{
 			ss.takeScreenshot("add_to_cart");
 			logger.log(LogStatus.FAIL, "Add to cart test is failed");
 			Allure.addAttachment("screenshot taken successfully", e.getMessage());
+			throw e;
 		}
 		extent.endTest(logger);
 		

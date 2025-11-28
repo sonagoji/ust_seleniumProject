@@ -42,6 +42,7 @@ public class tc5_removeFromCart extends reportGenerator {
 			ss.takeScreenshot("removeFromCart");
 			logger.log(LogStatus.FAIL, "remove from cart test is failed");
 			Allure.addAttachment("screenshot taken successfully", e.getMessage());
+			throw e;
 		}
 		extent.endTest(logger);
 	}

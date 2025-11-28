@@ -45,6 +45,7 @@ public class tc2_invalidLogin extends reportGenerator {
 			ss.takeScreenshot("invalidLogin");
 			logger.log(LogStatus.FAIL, "Invalid login test is failed");
 			Allure.addAttachment("screenshot taken successfully", e.getMessage());
+			throw e;
 		}
 		extent.endTest(logger);
 	}

@@ -57,6 +57,7 @@ public class tc7_checkout extends reportGenerator  {
 			ss.takeScreenshot("Checkout");
 			logger.log(LogStatus.FAIL, "Checkout test is failed");
 			Allure.addAttachment("screenshot taken successfully", e.getMessage());
+			throw e;
 		}
 	}
 }

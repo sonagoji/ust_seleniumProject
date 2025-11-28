@@ -36,6 +36,7 @@ public class tc8_InvalidCheckout extends reportGenerator {
 			logger.log(LogStatus.FAIL, "Invalid checkout test is failed");
 			ss.takeScreenshot("Invalid_checkout");
 			Allure.addAttachment("screenshot taken successfully", e.getMessage());
+			throw e;
 		}
 	}
 }

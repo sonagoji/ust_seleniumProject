@@ -46,6 +46,7 @@ public class tc1_validLogin extends reportGenerator {
 			ss.takeScreenshot("login");
 			logger.log(LogStatus.FAIL, "Valid login test is failed");
 			Allure.addAttachment("screenshot taken successfully", e.getMessage());
+			throw e;
 		}
 	}
 

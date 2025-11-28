@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">22 methods,   22 passed</span>
+                    <span class="method-stats">22 methods, 1 failed,   21 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testrunner" class="method navigator-link" hash-for-method="runScenario(&quot;Unsuccessfull checkout&quot;, &quot;Optional[Checkout functionality]&quot;)">runScenario("Unsuccessfull checkout", "Optional[Checkout functionality]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,51 +116,6 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testrunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify logout&quot;, &quot;Optional[Logout functionality]&quot;)">runScenario("Verify logout", "Optional[Logout functionality]")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testrunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with different invalid credentials&quot;, &quot;Optional[Login functionality]&quot;)">runScenario("Login with different invalid credentials", "Optional[Login functionality]")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testrunner" class="method navigator-link" hash-for-method="runScenario(&quot;Unsuccessfull checkout&quot;, &quot;Optional[Checkout functionality]&quot;)">runScenario("Unsuccessfull checkout", "Optional[Checkout functionality]")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testrunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with different valid credentials&quot;, &quot;Optional[Login functionality]&quot;)">runScenario("Login with different valid credentials", "Optional[Login functionality]")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testrunner" class="method navigator-link" hash-for-method="runScenario(&quot;Filter products by a to z&quot;, &quot;Optional[Filtering products]&quot;)">runScenario("Filter products by a to z", "Optional[Filtering products]")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testrunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with different valid credentials&quot;, &quot;Optional[Login functionality]&quot;)">runScenario("Login with different valid credentials", "Optional[Login functionality]")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testrunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with different invalid credentials&quot;, &quot;Optional[Login functionality]&quot;)">runScenario("Login with different invalid credentials", "Optional[Login functionality]")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testrunner" class="method navigator-link" hash-for-method="runScenario(&quot;Filter products by a to z&quot;, &quot;Optional[Filtering products]&quot;)">runScenario("Filter products by a to z", "Optional[Filtering products]")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testrunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with different invalid credentials&quot;, &quot;Optional[Login functionality]&quot;)">runScenario("Login with different invalid credentials", "Optional[Login functionality]")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testrunner" class="method navigator-link" hash-for-method="runScenario(&quot;Filter products by a to z&quot;, &quot;Optional[Filtering products]&quot;)">runScenario("Filter products by a to z", "Optional[Filtering products]")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -158,11 +127,6 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testrunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with different valid credentials&quot;, &quot;Optional[Login functionality]&quot;)">runScenario("Login with different valid credentials", "Optional[Login functionality]")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testrunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify product details&quot;, &quot;Optional[product page]&quot;)">runScenario("Verify product details", "Optional[product page]")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -172,22 +136,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testrunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add a product to cart&quot;, &quot;Optional[Shopping cart functionality]&quot;)">runScenario("Add a product to cart", "Optional[Shopping cart functionality]")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testrunner" class="method navigator-link" hash-for-method="runScenario(&quot;Filter products by a to z&quot;, &quot;Optional[Filtering products]&quot;)">runScenario("Filter products by a to z", "Optional[Filtering products]")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testrunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify product list is displayed&quot;, &quot;Optional[product page]&quot;)">runScenario("Verify product list is displayed", "Optional[product page]")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testrunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify product page title&quot;, &quot;Optional[product page]&quot;)">runScenario("Verify product page title", "Optional[product page]")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testrunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with different invalid credentials&quot;, &quot;Optional[Login functionality]&quot;)">runScenario("Login with different invalid credentials", "Optional[Login functionality]")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -202,12 +156,67 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testrunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with different valid credentials&quot;, &quot;Optional[Login functionality]&quot;)">runScenario("Login with different valid credentials", "Optional[Login functionality]")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testrunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify logout&quot;, &quot;Optional[Logout functionality]&quot;)">runScenario("Verify logout", "Optional[Logout functionality]")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testrunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with different invalid credentials&quot;, &quot;Optional[Login functionality]&quot;)">runScenario("Login with different invalid credentials", "Optional[Login functionality]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testrunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with different invalid credentials&quot;, &quot;Optional[Login functionality]&quot;)">runScenario("Login with different invalid credentials", "Optional[Login functionality]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testrunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify product page title&quot;, &quot;Optional[product page]&quot;)">runScenario("Verify product page title", "Optional[product page]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testrunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with different valid credentials&quot;, &quot;Optional[Login functionality]&quot;)">runScenario("Login with different valid credentials", "Optional[Login functionality]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testrunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with different valid credentials&quot;, &quot;Optional[Login functionality]&quot;)">runScenario("Login with different valid credentials", "Optional[Login functionality]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testrunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add a product to cart&quot;, &quot;Optional[Shopping cart functionality]&quot;)">runScenario("Add a product to cart", "Optional[Shopping cart functionality]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testrunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify product details&quot;, &quot;Optional[product page]&quot;)">runScenario("Verify product details", "Optional[product page]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testrunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with different invalid credentials&quot;, &quot;Optional[Login functionality]&quot;)">runScenario("Login with different invalid credentials", "Optional[Login functionality]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testrunner" class="method navigator-link" hash-for-method="runScenario(&quot;Filter products by a to z&quot;, &quot;Optional[Filtering products]&quot;)">runScenario("Filter products by a to z", "Optional[Filtering products]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testrunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify product list is displayed&quot;, &quot;Optional[product page]&quot;)">runScenario("Verify product list is displayed", "Optional[product page]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testrunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with different valid credentials&quot;, &quot;Optional[Login functionality]&quot;)">runScenario("Login with different valid credentials", "Optional[Login functionality]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testrunner" class="method navigator-link" hash-for-method="runScenario(&quot;Filter products by a to z&quot;, &quot;Optional[Filtering products]&quot;)">runScenario("Filter products by a to z", "Optional[Filtering products]")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -222,6 +231,29 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testrunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Unsuccessfull checkout&quot;, &quot;Optional[Checkout functionality]&quot;)">
+                  </a> <!-- runScenario("Unsuccessfull checkout", "Optional[Checkout functionality]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Unsuccessfull checkout", "Optional[Checkout functionality]")</span>
+                  <div class="stack-trace">java.lang.AssertionError: Invalid checkout fails expected [true] but found [false]
+	at stepdefinition.tc8_InvalidCheckout.error_message_is_displayed(tc8_InvalidCheckout.java:30)
+	at ✽.error message is displayed(file:///C:/Selenium%20demo/capstone_project/features/checkout.feature:17)
+... Removed 3 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -230,96 +262,6 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Verify logout&quot;, &quot;Optional[Logout functionality]&quot;)">
-                  </a> <!-- runScenario("Verify logout", "Optional[Logout functionality]") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify logout", "Optional[Logout functionality]")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Login with different invalid credentials&quot;, &quot;Optional[Login functionality]&quot;)">
-                  </a> <!-- runScenario("Login with different invalid credentials", "Optional[Login functionality]") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Login with different invalid credentials", "Optional[Login functionality]")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Unsuccessfull checkout&quot;, &quot;Optional[Checkout functionality]&quot;)">
-                  </a> <!-- runScenario("Unsuccessfull checkout", "Optional[Checkout functionality]") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Unsuccessfull checkout", "Optional[Checkout functionality]")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Login with different valid credentials&quot;, &quot;Optional[Login functionality]&quot;)">
-                  </a> <!-- runScenario("Login with different valid credentials", "Optional[Login functionality]") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Login with different valid credentials", "Optional[Login functionality]")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Filter products by a to z&quot;, &quot;Optional[Filtering products]&quot;)">
-                  </a> <!-- runScenario("Filter products by a to z", "Optional[Filtering products]") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Filter products by a to z", "Optional[Filtering products]")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Login with different valid credentials&quot;, &quot;Optional[Login functionality]&quot;)">
-                  </a> <!-- runScenario("Login with different valid credentials", "Optional[Login functionality]") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Login with different valid credentials", "Optional[Login functionality]")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Login with different invalid credentials&quot;, &quot;Optional[Login functionality]&quot;)">
-                  </a> <!-- runScenario("Login with different invalid credentials", "Optional[Login functionality]") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Login with different invalid credentials", "Optional[Login functionality]")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Filter products by a to z&quot;, &quot;Optional[Filtering products]&quot;)">
-                  </a> <!-- runScenario("Filter products by a to z", "Optional[Filtering products]") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Filter products by a to z", "Optional[Filtering products]")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Login with different invalid credentials&quot;, &quot;Optional[Login functionality]&quot;)">
-                  </a> <!-- runScenario("Login with different invalid credentials", "Optional[Login functionality]") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Login with different invalid credentials", "Optional[Login functionality]")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="runScenario(&quot;Filter products by a to z&quot;, &quot;Optional[Filtering products]&quot;)">
                   </a> <!-- runScenario("Filter products by a to z", "Optional[Filtering products]") -->
                   <span class="method-name">runScenario</span>
@@ -344,16 +286,6 @@
                   </a> <!-- runScenario("Login with different valid credentials", "Optional[Login functionality]") -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("Login with different valid credentials", "Optional[Login functionality]")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Verify product details&quot;, &quot;Optional[product page]&quot;)">
-                  </a> <!-- runScenario("Verify product details", "Optional[product page]") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify product details", "Optional[product page]")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -370,16 +302,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Add a product to cart&quot;, &quot;Optional[Shopping cart functionality]&quot;)">
-                  </a> <!-- runScenario("Add a product to cart", "Optional[Shopping cart functionality]") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Add a product to cart", "Optional[Shopping cart functionality]")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="runScenario(&quot;Filter products by a to z&quot;, &quot;Optional[Filtering products]&quot;)">
                   </a> <!-- runScenario("Filter products by a to z", "Optional[Filtering products]") -->
                   <span class="method-name">runScenario</span>
@@ -390,20 +312,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Verify product list is displayed&quot;, &quot;Optional[product page]&quot;)">
-                  </a> <!-- runScenario("Verify product list is displayed", "Optional[product page]") -->
+                  <a name="runScenario(&quot;Login with different invalid credentials&quot;, &quot;Optional[Login functionality]&quot;)">
+                  </a> <!-- runScenario("Login with different invalid credentials", "Optional[Login functionality]") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify product list is displayed", "Optional[product page]")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Verify product page title&quot;, &quot;Optional[product page]&quot;)">
-                  </a> <!-- runScenario("Verify product page title", "Optional[product page]") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify product page title", "Optional[product page]")</span>
+                  <span class="parameters">("Login with different invalid credentials", "Optional[Login functionality]")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -430,10 +342,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Login with different valid credentials&quot;, &quot;Optional[Login functionality]&quot;)">
-                  </a> <!-- runScenario("Login with different valid credentials", "Optional[Login functionality]") -->
+                  <a name="runScenario(&quot;Verify logout&quot;, &quot;Optional[Logout functionality]&quot;)">
+                  </a> <!-- runScenario("Verify logout", "Optional[Logout functionality]") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Login with different valid credentials", "Optional[Login functionality]")</span>
+                  <span class="parameters">("Verify logout", "Optional[Logout functionality]")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -444,6 +356,116 @@
                   </a> <!-- runScenario("Login with different invalid credentials", "Optional[Login functionality]") -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("Login with different invalid credentials", "Optional[Login functionality]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login with different invalid credentials&quot;, &quot;Optional[Login functionality]&quot;)">
+                  </a> <!-- runScenario("Login with different invalid credentials", "Optional[Login functionality]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login with different invalid credentials", "Optional[Login functionality]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify product page title&quot;, &quot;Optional[product page]&quot;)">
+                  </a> <!-- runScenario("Verify product page title", "Optional[product page]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify product page title", "Optional[product page]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login with different valid credentials&quot;, &quot;Optional[Login functionality]&quot;)">
+                  </a> <!-- runScenario("Login with different valid credentials", "Optional[Login functionality]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login with different valid credentials", "Optional[Login functionality]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login with different valid credentials&quot;, &quot;Optional[Login functionality]&quot;)">
+                  </a> <!-- runScenario("Login with different valid credentials", "Optional[Login functionality]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login with different valid credentials", "Optional[Login functionality]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add a product to cart&quot;, &quot;Optional[Shopping cart functionality]&quot;)">
+                  </a> <!-- runScenario("Add a product to cart", "Optional[Shopping cart functionality]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add a product to cart", "Optional[Shopping cart functionality]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify product details&quot;, &quot;Optional[product page]&quot;)">
+                  </a> <!-- runScenario("Verify product details", "Optional[product page]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify product details", "Optional[product page]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login with different invalid credentials&quot;, &quot;Optional[Login functionality]&quot;)">
+                  </a> <!-- runScenario("Login with different invalid credentials", "Optional[Login functionality]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login with different invalid credentials", "Optional[Login functionality]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Filter products by a to z&quot;, &quot;Optional[Filtering products]&quot;)">
+                  </a> <!-- runScenario("Filter products by a to z", "Optional[Filtering products]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Filter products by a to z", "Optional[Filtering products]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify product list is displayed&quot;, &quot;Optional[product page]&quot;)">
+                  </a> <!-- runScenario("Verify product list is displayed", "Optional[product page]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify product list is displayed", "Optional[product page]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login with different valid credentials&quot;, &quot;Optional[Login functionality]&quot;)">
+                  </a> <!-- runScenario("Login with different valid credentials", "Optional[Login functionality]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login with different valid credentials", "Optional[Login functionality]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Filter products by a to z&quot;, &quot;Optional[Filtering products]&quot;)">
+                  </a> <!-- runScenario("Filter products by a to z", "Optional[Filtering products]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Filter products by a to z", "Optional[Filtering products]")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -522,96 +544,96 @@ data.addRows(22);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'testrunner')
-data.setCell(0, 3, 7002);
+data.setCell(0, 3, 7099);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'testrunner')
-data.setCell(1, 3, 5125);
+data.setCell(1, 3, 5075);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'runScenario')
 data.setCell(2, 2, 'testrunner')
-data.setCell(2, 3, 4762);
+data.setCell(2, 3, 5021);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'runScenario')
 data.setCell(3, 2, 'testrunner')
-data.setCell(3, 3, 4383);
+data.setCell(3, 3, 4169);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'runScenario')
 data.setCell(4, 2, 'testrunner')
-data.setCell(4, 3, 3391);
+data.setCell(4, 3, 3561);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'runScenario')
 data.setCell(5, 2, 'testrunner')
-data.setCell(5, 3, 3311);
+data.setCell(5, 3, 2455);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'runScenario')
 data.setCell(6, 2, 'testrunner')
-data.setCell(6, 3, 2407);
+data.setCell(6, 3, 2401);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'runScenario')
 data.setCell(7, 2, 'testrunner')
-data.setCell(7, 3, 2262);
+data.setCell(7, 3, 2395);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'runScenario')
 data.setCell(8, 2, 'testrunner')
-data.setCell(8, 3, 2240);
+data.setCell(8, 3, 2333);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'runScenario')
 data.setCell(9, 2, 'testrunner')
-data.setCell(9, 3, 2138);
+data.setCell(9, 3, 2295);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'runScenario')
 data.setCell(10, 2, 'testrunner')
-data.setCell(10, 3, 2113);
+data.setCell(10, 3, 2283);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'runScenario')
 data.setCell(11, 2, 'testrunner')
-data.setCell(11, 3, 2045);
+data.setCell(11, 3, 2237);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'runScenario')
 data.setCell(12, 2, 'testrunner')
-data.setCell(12, 3, 1914);
+data.setCell(12, 3, 2227);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'runScenario')
 data.setCell(13, 2, 'testrunner')
-data.setCell(13, 3, 1912);
+data.setCell(13, 3, 2159);
 data.setCell(14, 0, 14)
 data.setCell(14, 1, 'runScenario')
 data.setCell(14, 2, 'testrunner')
-data.setCell(14, 3, 1910);
+data.setCell(14, 3, 2149);
 data.setCell(15, 0, 15)
 data.setCell(15, 1, 'runScenario')
 data.setCell(15, 2, 'testrunner')
-data.setCell(15, 3, 1898);
+data.setCell(15, 3, 2102);
 data.setCell(16, 0, 16)
 data.setCell(16, 1, 'runScenario')
 data.setCell(16, 2, 'testrunner')
-data.setCell(16, 3, 1894);
+data.setCell(16, 3, 2004);
 data.setCell(17, 0, 17)
 data.setCell(17, 1, 'runScenario')
 data.setCell(17, 2, 'testrunner')
-data.setCell(17, 3, 1851);
+data.setCell(17, 3, 1990);
 data.setCell(18, 0, 18)
 data.setCell(18, 1, 'runScenario')
 data.setCell(18, 2, 'testrunner')
-data.setCell(18, 3, 1788);
+data.setCell(18, 3, 1982);
 data.setCell(19, 0, 19)
 data.setCell(19, 1, 'runScenario')
 data.setCell(19, 2, 'testrunner')
-data.setCell(19, 3, 1776);
+data.setCell(19, 3, 1937);
 data.setCell(20, 0, 20)
 data.setCell(20, 1, 'runScenario')
 data.setCell(20, 2, 'testrunner')
-data.setCell(20, 3, 1767);
+data.setCell(20, 3, 1905);
 data.setCell(21, 0, 21)
 data.setCell(21, 1, 'runScenario')
 data.setCell(21, 2, 'testrunner')
-data.setCell(21, 3, 1762);
+data.setCell(21, 3, 1861);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 59 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -647,106 +669,108 @@ return data;
               <div class="chronological-class-name">testrunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUpClass</span>
-                <span class="method-start">145 ms</span>
+                <span class="method-start">173 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">runScenario("Add a product to cart", "Optional[Shopping cart functionality]")</span>
-                <span class="method-start">643 ms</span>
+                <span class="method-start">892 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Remove a product from cart", "Optional[Shopping cart functionality]")</span>
-                <span class="method-start">3958 ms</span>
+                <span class="method-start">4457 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Successfull checkout", "Optional[Checkout functionality]")</span>
-                <span class="method-start">6222 ms</span>
+                <span class="method-start">6860 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">runScenario("Unsuccessfull checkout", "Optional[Checkout functionality]")</span>
-                <span class="method-start">10986 ms</span>
+                <span class="method-start">11882 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Filter products by a to z", "Optional[Filtering products]")</span>
-                <span class="method-start">16112 ms</span>
+                <span class="method-start">16964 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Filter products by a to z", "Optional[Filtering products]")</span>
-                <span class="method-start">18227 ms</span>
+                <span class="method-start">19248 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Filter products by a to z", "Optional[Filtering products]")</span>
-                <span class="method-start">20140 ms</span>
+                <span class="method-start">21582 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Filter products by a to z", "Optional[Filtering products]")</span>
-                <span class="method-start">22279 ms</span>
+                <span class="method-start">23821 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Login with different valid credentials", "Optional[Login functionality]")</span>
-                <span class="method-start">24326 ms</span>
+                <span class="method-start">25982 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Login with different valid credentials", "Optional[Login functionality]")</span>
-                <span class="method-start">26225 ms</span>
+                <span class="method-start">28211 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Login with different valid credentials", "Optional[Login functionality]")</span>
-                <span class="method-start">28077 ms</span>
+                <span class="method-start">30216 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Login with different valid credentials", "Optional[Login functionality]")</span>
-                <span class="method-start">35081 ms</span>
+                <span class="method-start">37316 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Login with different valid credentials", "Optional[Login functionality]")</span>
-                <span class="method-start">37323 ms</span>
+                <span class="method-start">39712 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Login with different invalid credentials", "Optional[Login functionality]")</span>
-                <span class="method-start">39086 ms</span>
+                <span class="method-start">42168 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Login with different invalid credentials", "Optional[Login functionality]")</span>
-                <span class="method-start">40981 ms</span>
+                <span class="method-start">44106 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Login with different invalid credentials", "Optional[Login functionality]")</span>
-                <span class="method-start">42770 ms</span>
+                <span class="method-start">45968 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Login with different invalid credentials", "Optional[Login functionality]")</span>
-                <span class="method-start">44539 ms</span>
+                <span class="method-start">47874 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Login with different invalid credentials", "Optional[Login functionality]")</span>
-                <span class="method-start">46317 ms</span>
+                <span class="method-start">49858 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Verify logout", "Optional[Logout functionality]")</span>
-                <span class="method-start">49709 ms</span>
+                <span class="method-start">51849 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Verify product page title", "Optional[product page]")</span>
-                <span class="method-start">54094 ms</span>
+                <span class="method-start">56019 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Verify product list is displayed", "Optional[product page]")</span>
-                <span class="method-start">56007 ms</span>
+                <span class="method-start">58315 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Verify product details", "Optional[product page]")</span>
-                <span class="method-start">57922 ms</span>
+                <span class="method-start">60419 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">60330 ms</span>
+                <span class="method-start">62570 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">utilities.reportGenerator</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">60428 ms</span>
+                <span class="method-start">62693 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
